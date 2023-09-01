@@ -1,5 +1,5 @@
  # Git project
 
- ** bold text **
- 
+ **bold text**
+
 
