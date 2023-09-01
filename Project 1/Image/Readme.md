@@ -2,7 +2,7 @@
 
 I started by installing the above from the microsoft store.
 
-![Ubuntu terminal](![Alt text](<WSL_Ubuntu terminal.png>)
+Ubuntu terminal![Alt text](<WSL_Ubuntu terminal.png>)
 
 Than I ran some commands to get familar with Ubuntu 
 
@@ -27,4 +27,17 @@ Proof of two users added![Alt text](<proof of user John added-1.png>)
 
 Finally I used somemore commands eg to check the health of my machine
 
-[](![Alt text](Htop-1.png))
+![Alt text](Htop-1.png)
+
+
+## Markdown Syntax
+I used  a cheat sheet that I found on the web which can be found here [Markdown cheat-sheet](https://www.markdownguide.org/cheat-sheet/
+)
+
+One can do many things with the markdown syntax like,
+
+### **BOLD TEXT**
+### *Italicized Text*
+> Blockquote 
+
+And much more.
