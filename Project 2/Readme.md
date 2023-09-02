@@ -28,3 +28,8 @@ By using the **git checkout <branch-name>** am able to change from one branch to
 ![Alt text](<Images/changing inbetween branches.png>)
 
 
+## Creating a Github Account
+
+This step was done earlier while documenting for Project 1
+
+![Alt text](<Images/Github account.png>)
