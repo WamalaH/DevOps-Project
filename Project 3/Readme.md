@@ -24,3 +24,7 @@ Apache server is an open source software that is available for free.It runs on m
 
  I run the ** sudo apt update **
   ![Alt text](<images/apt update.png>)
+
+
+  Than I run the ** sudo apt install apache2 ** to install apache
+  ![](<images/apache2 install.png>)
