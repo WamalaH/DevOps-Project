@@ -22,9 +22,9 @@ I than went ahead and connected to my instance using the windows powershell and 
 
 Apache server is an open source software that is available for free.It runs on more than half of all webservers in the world.It can be highly customized to meet the needs of many different environments by using extensions and modules.
 
- I run the ** sudo apt update **
+ I run the *sudo apt update*
   ![Alt text](<images/apt update.png>)
 
 
-  Than I run the ** sudo apt install apache2 ** to install apache
+  Than I run the *sudo apt install apache2* to install apache
   ![](<images/apache2 install.png>)
