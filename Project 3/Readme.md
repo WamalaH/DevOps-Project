@@ -18,6 +18,8 @@ I created 2 inbound rules one to allow ssh to be accessable from everywhere and 
 
 I than went ahead and connected to my instance using the windows powershell and the public keys from the E2c instance
 
+![Alt text](<images/Connecting to my instance.png>)
+
 ## Installing PHP and updating the firewall ##
 
 Apache server is an open source software that is available for free.It runs on more than half of all webservers in the world.It can be highly customized to meet the needs of many different environments by using extensions and modules.
@@ -28,3 +30,20 @@ Apache server is an open source software that is available for free.It runs on m
 
   Than I run the *sudo apt install apache2* to install apache
   ![](<images/apache2 install.png>)
+
+
+By running the *sudo systemctl status apache2* or *sudo service apache2 status* I was able to confirm that apache was installed and is running by confirming that it is **Green**
+
+I than went ahead to update the ufw firewall and made sure that HTTP port 80 was open on my ubuntu server
+![Alt text](<images/updated ufw firewall.png>)
+
+I than went ahead to open my web brower and put *http://public-IP-address:80*  to confirm that apache2 was running
+![Alt text](images/confiramtion.png)
+
+
+## Installing Mysql ##
+
+
+
+
+
