@@ -43,7 +43,27 @@ I than went ahead to open my web brower and put *http://public-IP-address:80*  t
 
 ## Installing Mysql ##
 
+I than went ahead and installed a Database Management System to be able to store and manage data for my site. In this case I installed **Mysql**.which is considered to be a *Relational Database* by running *sudo apt install mysql-server* command.After which I ran the *sudo mysql* command to log into the database.
+
+![Alt text](<images/installed mysql.png>)
+
+I also ran *sudo mysql_secure_installation* to remove some unsecure default settings,set a password for my database and made my database more secure
+
+![Alt text](<images/removing secure default settings and setting pw.png>)
+
+![
+](<images/security enabed.png>)
 
 
+## Installing PHP ##
+
+I than installed the component/stack that would process the code to display the dynamic conent to the user.In addition I installed 2 more packages to enable PhP to communicate with the database,Mysql and the other one to enable Apache to handle Php files.
+
+I than created a vitual host for my website. 
+
+![Alt text](<images/creating a virtual host.png>)
 
 
+And the end results was to display this page .
+
+![Alt text](<images/Php working.png>)
