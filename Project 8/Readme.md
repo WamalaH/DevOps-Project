@@ -51,3 +51,37 @@ I was than able to get to my website via the public ip addresses of my webserver
 
 
 ![Alt text](Images/webserver_2.png)
+
+
+## Deploying and Configuring Nginx Load Balancer. ##
+
+I provisioned EC2 instance running on ubuntu. I also opened port 80 on the EC2 instance for it to be connected to from anywhere.
+
+![Alt text](<Images/nginx opened port 80.png>)
+
+
+I than created  *nginx.sh* file and pasted my script and than saved it.
+
+
+![Alt text](<Images/created nginx.sh file.png>)
+
+The script did the following:
+
+- It updated the apt and than installed *nginx*
+- It created /etc/nginx/conf.d/loadbalancer.conf.
+- It changed file permissions on two files namely **etc/nginx/conf.d/loadbalancer.conf** and **/etc/nginx/**
+
+I than changed the file permissions of **nginx.sh** to turn it into an excutable file.
+
+![Alt text](<Images/excutebale nginx.png>)
+
+
+I than ran the excutable file  using the below command:
+
+> ./nginx.sh PUBLIC_IP Webserver-1 Webserver-2
+
+replacing **PUBLIC_IP Webserver-1 Webserver-2** with the public IP addresses of my webservers inculding the corresponding ports.
+
+I was able to get to my website using the public ip address of my nginx load balancer.
+
+![Alt text](<Images/successfully got to my website via the load balancer.png>)
