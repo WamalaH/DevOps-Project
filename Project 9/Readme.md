@@ -53,3 +53,16 @@ By using the *vgcreate* utility, I was able to add all the 3 newly created physi
 I created two logical volumes, *app-lv* and *logs-lv* and allocated each of the 14GB of space by using the *lvcreate* utility.
 
 ![Alt text](<Images/logical volumes created.png>)
+
+Using the *mkfs.ext4* I formatted the two logical volumes with **ext4** file system. Below are the commands that i issued
+
+`sudo mkfs -t ext4 /dev/webdata-vg/apps-lv`
+
+`sudo mkfs -t ext4 /dev/webdata-vg/logs-lv`
+
+![Alt text](<Images/formated logical volumes.png>)
+
+
+
+
+
